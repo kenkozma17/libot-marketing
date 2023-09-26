@@ -12,7 +12,7 @@ export default function HeroContent(props) {
             className="bg-libot-blue transition-all hover:bg-libot-green
              rounded-full inline-block font-semibold text-center md:w-auto w-full
               text-white md:py-[.85rem] py-[.6rem] md:px-[2rem] px-[1rem]"
-            href="#"
+            href="mailto:workwithkozma@gmail.com"
           >
             {props.ctaBtnTxt}
           </a>

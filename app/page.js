@@ -53,7 +53,7 @@ export default function Home() {
                 className="bg-libot-yellow text-black transition-all hover:bg-libot-blue hover:text-white
                   rounded-full inline-block font-semibold text-center md:w-auto w-full
                   md:py-[.85rem] py-[.6rem] md:px-[2rem] px-[1rem]"
-                href="#"
+                href="mailto:workwithkozma@gmail.com"
               >
                 Try FREE for 7 days
               </a>
