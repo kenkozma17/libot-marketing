@@ -27,6 +27,7 @@ export default function page() {
           </div>
           <div className="grid lg:grid-cols-8 grid-cols-1 lg:space-x-6 space-y-6 lg:space-y-0">
             <Card
+              key="pricing-1"
               pricePerMonth="1,500"
               priceCategory="Most Popular"
               priceTitle="Professional"
@@ -39,6 +40,7 @@ export default function page() {
           bg-libot-yellow"
             />
             <Card
+              key="pricing-2"
               pricePerMonth="2,300"
               priceCategory="Coming Soon"
               priceTitle="Enterprise"
