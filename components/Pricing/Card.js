@@ -12,13 +12,21 @@ export default function Card(props) {
     >
       <Features className={props.featureClasses}>
         {props.features.map((feature) => (
-          <FeatureItem fill={props.checkFill} feature={feature} />
+          <FeatureItem
+            key={props.feature}
+            fill={props.checkFill}
+            feature={feature}
+          />
         ))}
       </Features>
       {hasMoreFeatures && (
         <Features className={props.featureClasses}>
           {props.moreFeatures.map((feature) => (
-            <FeatureItem fill={props.checkFill} feature={feature} />
+            <FeatureItem
+              key={props.feature}
+              fill={props.checkFill}
+              feature={feature}
+            />
           ))}
         </Features>
       )}
