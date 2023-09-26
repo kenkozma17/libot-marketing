@@ -1,7 +1,13 @@
 import HeroContent from "../components/Home/HeroContent";
 import NormalWrapper from "../components/UI/NormalWrapper";
 import Image from "next/image";
-import Head from "next/head";
+import { Metadata } from "next";
+
+export const metadata = {
+  title: "libot - An online booking solution",
+  description:
+    "An online booking solution built for hotels to streamline your booking process with ZERO commission.",
+};
 
 export default function Home() {
   const heading = "Effortless Online Bookings.";
@@ -14,15 +20,6 @@ export default function Home() {
   const ctaBtnTxt = "Schedule A Demo";
   return (
     <main>
-      <Head>
-        <title>libot - An online booking solution</title>
-        <meta
-          name="description"
-          content="An online booking solution built for hotels to streamline
-          your booking process with ZERO commission."
-          key="desc"
-        />
-      </Head>
       <section className="bg-libot-yellow">
         <NormalWrapper>
           <HeroContent

@@ -1,5 +1,12 @@
 import NormalWrapper from "../../components/UI/NormalWrapper";
 import Card from "../../components/Pricing/Card";
+import { Metadata } from "next";
+
+export const metadata = {
+  title: "libot - Pricing",
+  description:
+    "Discover our transparent pricing plans for hassle-free booking! Choose the perfect plan to suit your needs and budget. Unlock a world of convenience and savings with our pricing options today.",
+};
 
 export default function page() {
   const basicFeatures = [
